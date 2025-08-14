@@ -20,6 +20,7 @@ sudo apt install -y nodejs
 # Install PM2 untuk daemon process
 echo "[3/6] Installing PM2..."
 sudo npm install -g pm2
+sudo npm install express socket.io pm2
 
 # Clone repo panel
 echo "[4/6] Cloning panel from $GITHUB_REPO..."

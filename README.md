@@ -1,1 +1,1 @@
-bash <(curl -s https://raw.githubusercontent.com/MyMasWayVPN/panel/main/install.sh)
+bash <(curl -s https://raw.githubusercontent.com/MyMasWayVPN/pm2-panel/main/install.sh)

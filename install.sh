@@ -3,7 +3,7 @@ set -e  # stop kalau ada error
 
 # Konfigurasi
 GITHUB_REPO="https://github.com/MyMasWayVPN/pm2-panel.git"  # ganti kalau perlu
-APP_DIR="$HOME/monitoring/node-panel"
+APP_DIR="$HOME/monitoring"
 NODE_VERSION="20.x"
 ENTRY_FILE="pm2-panel.js"  # ganti sesuai file start kamu
 
@@ -38,6 +38,7 @@ npm install
 echo "[6/6] Starting panel..."
 pm2 start "$ENTRY_FILE" --name pm2-panel
 pm2 save
+rm -rf install.js
 sudo pm2 startup systemd -u "$USER" --hp "$HOME"
 
 echo "=== Install selesai! ==="

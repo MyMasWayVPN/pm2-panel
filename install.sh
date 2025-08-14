@@ -2,7 +2,7 @@
 
 # Konfigurasi
 GITHUB_REPO="https://github.com/MyMasWayVPN/pm2-panel.git"  # ganti kalau perlu
-APP_DIR="/opt/node-panel"
+APP_DIR="/monitoring/node-panel"
 NODE_VERSION="20"
 
 echo "=== Auto Installer Node Panel ==="
@@ -40,4 +40,4 @@ pm2 startup systemd -u $USER --hp $HOME
 
 echo "=== Install selesai! ==="
 echo "Panel berjalan di PM2 dengan nama: pm2-panel"
-echo "Gunakan 'pm2 logs node-panel' untuk melihat log."
+echo "Gunakan 'pm2 logs pm2-panel' untuk melihat log."

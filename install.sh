@@ -38,7 +38,7 @@ npm install
 echo "[6/6] Starting panel..."
 pm2 start "$ENTRY_FILE" --name pm2-panel
 pm2 save
-rm -rf install.js
+rm -rf install.sh
 sudo pm2 startup systemd -u "$USER" --hp "$HOME"
 
 echo "=== Install selesai! ==="

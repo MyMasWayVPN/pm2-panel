@@ -1,0 +1,21 @@
+{
+  "name": "pm2-panel",
+  "version": "1.0.0",
+  "description": "bash <(curl -s https://raw.githubusercontent.com/MyMasWayVPN/pm2-panel/main/insta>
+  "main": "pm2-monitor.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "pm2": "^6.0.8",
+    "socket.io": "^4.8.1"
+  }
+}
+
+
+
+
+

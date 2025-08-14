@@ -5,7 +5,7 @@ set -e  # stop kalau ada error
 GITHUB_REPO="https://github.com/MyMasWayVPN/pm2-panel.git"  # ganti kalau perlu
 APP_DIR="$HOME/monitoring"
 NODE_VERSION="20.x"
-ENTRY_FILE="pm2-panel.js"  # ganti sesuai file start kamu
+ENTRY_FILE="pm2-monitor.js"  # ganti sesuai file start kamu
 
 echo "=== Auto Installer Node Panel ==="
 
